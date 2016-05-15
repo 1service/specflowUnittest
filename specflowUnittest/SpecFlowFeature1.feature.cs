@@ -64,11 +64,11 @@ namespace specflowUnittest
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers", new string[] {
-                "mytag"}, SourceLine=8)]
+                "mytagnew"}, SourceLine=8)]
         public virtual void AddTwoNumbers()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
-                        "mytag"});
+                        "mytagnew"});
 #line 9
 this.ScenarioSetup(scenarioInfo);
 #line 10
